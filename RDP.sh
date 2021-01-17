@@ -19,9 +19,10 @@ sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 
+sudo apt install unzip -y
 sudo apt install qbittorrent -y
 wget https://github.com/explorerfaketimepass/Google-Colab-RDP/raw/main/qBittorrent.zip
-unzip qBittorrent.zip -d ~/.config/
+sudo unzip qBittorrent.zip -d ~/.config/
 
 sudo adduser HARSHAL chrome-remote-desktop
 } &> /dev/null &&
